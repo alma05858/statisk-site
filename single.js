@@ -14,7 +14,7 @@ function show(data) {
   console.log("show data:", data);
 
   document.querySelector(".produkt").innerHTML = `
-  <img src=${data.brandimage} alt="ProducImg"> <h1>${data.productdisplayname}</h1> <p>Add to basket</p>`;
+  <img src="https://kea-alt-del.dk/t7/images/webp/640/1536.webp" alt="ProducImg"> <h1>${data.productdisplayname}</h1> <p>Add to basket</p>`;
 }
 
 getData();
